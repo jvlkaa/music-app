@@ -12,9 +12,14 @@ A student project is a bash script made in 06.2022 to simulate an application fo
 # Setup
 1. Clone this repository.
 2. Install needed dependencies:
-````markdown
+````
 sudo apt-get update
 sudo apt-get install zenity
 sudo apt-get install eyeD3
 ````
-3. Run the project using `./project.sh -m`
+3. Add access rights to the files:
+````
+chmod +x projectsh
+chmod +x project.man
+````
+4. Run the project using `./project.sh -m`
