@@ -22,4 +22,5 @@ sudo apt-get install eyeD3
 chmod +x projectsh
 chmod +x project.man
 ````
-4. Run the project using `./project.sh -m`
+4. Create a folder named `Piosenki` and add mp3 files to it containing tags such as artist name and song title.
+5. Run the project using `./project.sh -m`
