@@ -1,0 +1,46 @@
+.TH DUZYSKRYPT 1 2022-05-31 GNU
+
+.SH NAME
+duzySkrypt \- Wyszukiwanie plikow mp3 i tworzenie playlist
+
+.SH SYNOPSIS
+.B duzySkrypt
+[\fB\-h\fR]
+[\fB\-v\fR]
+[\fB\-m\fR]
+
+.SH DESCRIPTION
+.TH duzySkrypt
+Skrypt imitujacy aplikacje do wyszukiwania plikow mp3 po tagu oraz tworzenia wlasnych playlist
+
+.SH OPTIONS
+.TP
+.BR \-h
+wyświetla pomocne informacje w obsłudze skryptu
+.TP
+.BR \-v
+wyświetla informacje o wersji programu
+.TP
+.BR \-m
+wyświetla menu skryptu
+
+.SH AUTHOR
+.I Julia Chomicka s188873\*(Tm
+
+.SH OVERVIEW
+Skrypt jest zrobiony w zenity i zawiera menu w którym można:
+.TP
+1. Wyszukać plik mp3 po tytule piosenki - po wpisaniu tytulu piosenki pokazuje wszystkie utwory o danym tytule
+.TP
+2. Wyszukać plik mp3 po wykonawcy piosenki - po wpisaniu wykonawcy piosenki pokazuje wszystkie utwory tego artysty
+.TP
+3.Stworzyć playliste - podając nazwę playlisty tworzy ją
+.TP
+4. Dodać piosenkę do playlisty - podając tytuł i artystę piosenki oraz nazwę playlisty
+
+.SH BUGS
+Nie znaleziono żadnych bugów.
+
+.SH SEE ALSO
+\fBzenity\fR(1)
+\fBeyeD3\fR(1)
